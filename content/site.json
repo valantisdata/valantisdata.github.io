@@ -1,0 +1,557 @@
+{
+  "default_language": "en",
+  "person": {
+    "name": "Valantis Fagogenis",
+    "title": {
+      "en": "Business & data analyst with a degree in Statistics",
+      "el": "Business & Data Analyst με πτυχίο Στατιστικής"
+    },
+    "location": {
+      "en": "Athens, Greece",
+      "el": "Αθήνα"
+    },
+    "bio": {
+      "en": "Analytical professional with experience across supply chain, sales, live trading and project coordination. I turn data into decisions, from pricing and weekly reporting to real-time risk management and supplier quotations. I work in SQL, Power BI, Excel and R, and I led the statistical analysis of a peer-reviewed study in Frontiers in Psychiatry.",
+      "el": "Αναλυτικός επαγγελματίας με εμπειρία σε supply chain, πωλήσεις, live trading και συντονισμό έργων. Μετατρέπω δεδομένα σε αποφάσεις: από τιμολόγηση και εβδομαδιαία reports μέχρι διαχείριση ρίσκου σε πραγματικό χρόνο και προσφορές προμηθευτών. Δουλεύω με SQL, Power BI, Excel και R, και είχα την ευθύνη της στατιστικής ανάλυσης σε δημοσίευση με κριτές στο Frontiers in Psychiatry."
+    },
+    "open_to": {
+      "en": "",
+      "el": ""
+    },
+    "photo": "",
+    "cv_pdf": "",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/valantis-fagogenis/",
+    "github": "https://github.com/valantisdata"
+  },
+  "labels": {
+    "projects": {
+      "en": "Projects",
+      "el": "Projects"
+    },
+    "experience": {
+      "en": "Experience",
+      "el": "Εμπειρία"
+    },
+    "skills": {
+      "en": "Skills",
+      "el": "Δεξιότητες"
+    },
+    "education": {
+      "en": "Education",
+      "el": "Σπουδές"
+    },
+    "contact": {
+      "en": "Contact",
+      "el": "Επικοινωνία"
+    },
+    "email_me": {
+      "en": "Email me",
+      "el": "Στείλε email"
+    },
+    "download_cv": {
+      "en": "Download CV",
+      "el": "Κατέβασε το CV"
+    },
+    "view_code": {
+      "en": "Code",
+      "el": "Κώδικας"
+    },
+    "live_demo": {
+      "en": "Live demo",
+      "el": "Live demo"
+    },
+    "read_report": {
+      "en": "Report",
+      "el": "Report"
+    },
+    "read_paper": {
+      "en": "Paper",
+      "el": "Δημοσίευση"
+    },
+    "more": {
+      "en": "Details",
+      "el": "Λεπτομέρειες"
+    },
+    "close": {
+      "en": "Close",
+      "el": "Κλείσιμο"
+    },
+    "present": {
+      "en": "present",
+      "el": "σήμερα"
+    },
+    "rights": {
+      "en": "All rights reserved. Text, images and project material on this site may not be copied or reused without written permission.",
+      "el": "Με την επιφύλαξη παντός δικαιώματος. Κείμενα, εικόνες και υλικό των projects δεν επιτρέπεται να αντιγραφούν ή να χρησιμοποιηθούν χωρίς γραπτή άδεια."
+    },
+    "languages": {
+      "en": "Languages and certificates",
+      "el": "Γλώσσες και πιστοποιήσεις"
+    },
+    "problem": {
+      "en": "The question",
+      "el": "Το ερώτημα"
+    },
+    "approach": {
+      "en": "What I did",
+      "el": "Τι έκανα"
+    },
+    "result": {
+      "en": "Result",
+      "el": "Αποτέλεσμα"
+    },
+    "featured": {
+      "en": "Featured",
+      "el": "Ξεχωρίζει"
+    }
+  },
+  "projects": [
+    {
+      "id": "maritime-flow-stats",
+      "visible": true,
+      "featured": true,
+      "year": "2026",
+      "title": {
+        "en": "maritime-flow-stats",
+        "el": "maritime-flow-stats"
+      },
+      "summary": {
+        "en": "How much did the Red Sea crisis cut Suez Canal traffic, and did Piraeus feel it? A Python toolkit that pulls daily vessel counts from IMF PortWatch and answers with change-point detection, interrupted time series, synthetic control and forecasting.",
+        "el": "Πόσο μείωσε η κρίση στην Ερυθρά Θάλασσα την κίνηση στο Σουέζ, και επηρεάστηκε ο Πειραιάς; Εργαλείο σε Python που παίρνει ημερήσια στοιχεία πλοίων από το IMF PortWatch και απαντά με change-point detection, interrupted time series, synthetic control και πρόβλεψη."
+      },
+      "details": {
+        "en": [
+          "Live data from the IMF PortWatch API, with paging, retries and a local cache",
+          "Data cleaning with a quality report: duplicates, missing days, accounting checks",
+          "Statistics implemented in numpy/scipy: PELT, quasi-Poisson regression, block bootstrap, synthetic control with placebo tests",
+          "SQLite / PostgreSQL storage with window-function queries",
+          "Streamlit dashboard and a self-contained HTML report",
+          "69 automated tests and CI on every change"
+        ],
+        "el": [
+          "Ζωντανά δεδομένα από το API του IMF PortWatch, με σελιδοποίηση, επαναλήψεις και τοπικό cache",
+          "Καθάρισμα δεδομένων με αναφορά ποιότητας: διπλές εγγραφές, μέρες που λείπουν, λογιστικοί έλεγχοι",
+          "Στατιστικές μέθοδοι γραμμένες με numpy/scipy: PELT, quasi-Poisson, block bootstrap, synthetic control με placebo tests",
+          "Αποθήκευση σε SQLite / PostgreSQL με queries που χρησιμοποιούν window functions",
+          "Dashboard σε Streamlit και αυτόνομο HTML report",
+          "69 αυτόματα tests και CI σε κάθε αλλαγή"
+        ]
+      },
+      "tags": [
+        "Python",
+        "SQL",
+        "Time series",
+        "Causal inference",
+        "Streamlit"
+      ],
+      "image": "assets/img/projects/maritime-flow-stats.svg",
+      "links": {
+        "code": "https://github.com/valantisdata/maritime-flow-stats",
+        "live": "",
+        "report": "",
+        "paper": ""
+      }
+    },
+    {
+      "id": "analytics-engineer-assessment",
+      "visible": true,
+      "featured": false,
+      "year": "2025",
+      "title": {
+        "en": "SQL ETL pipeline: casino data to a Gold table",
+        "el": "SQL ETL pipeline: από ακατέργαστα δεδομένα καζίνο σε Gold table"
+      },
+      "summary": {
+        "en": "An end-to-end PostgreSQL pipeline that turns raw casino activity, currency rates and user snapshots into a business-ready Gold table, with incremental loads and data-quality checks.",
+        "el": "Ολοκληρωμένο pipeline σε PostgreSQL που μετατρέπει ακατέργαστα δεδομένα καζίνο, ισοτιμίες και στιγμιότυπα χρηστών σε Gold table έτοιμο για ανάλυση, με incremental φορτώσεις και ελέγχους ποιότητας."
+      },
+      "details": {
+        "en": [
+          "Bronze, silver and gold layers built entirely in SQL",
+          "Slowly Changing Dimension (Type 2) for users' VIP status, using window functions",
+          "Incremental processing with a timestamp watermark, safe to re-run",
+          "Turnover, returns and GGR converted to EUR with daily exchange rates",
+          "Five data-quality checks; found and documented a GGR inconsistency in the source data"
+        ],
+        "el": [
+          "Επίπεδα bronze, silver και gold, όλα σε SQL",
+          "Slowly Changing Dimension (Type 2) για το VIP status των χρηστών, με window functions",
+          "Incremental επεξεργασία με watermark χρονοσφραγίδας, ασφαλής σε επανάληψη",
+          "Μετατροπή turnover, returns και GGR σε EUR με ημερήσιες ισοτιμίες",
+          "Πέντε έλεγχοι ποιότητας· εντόπισα και κατέγραψα ασυνέπεια στο GGR των αρχικών δεδομένων"
+        ]
+      },
+      "tags": [
+        "SQL",
+        "PostgreSQL",
+        "ETL",
+        "Data modelling"
+      ],
+      "image": "assets/img/projects/sql-etl-pipeline.svg",
+      "links": {
+        "code": "https://github.com/valantisdata/analytics_engineer_assessment",
+        "live": "",
+        "report": "",
+        "paper": ""
+      },
+      "case_study": {
+        "problem": {
+          "en": "Casino activity arrives in many currencies, and players move between VIP tiers over time. Analysts need one table they can trust, in EUR, with the VIP tier each player actually had on the day they played.",
+          "el": "Η δραστηριότητα του καζίνο έρχεται σε πολλά νομίσματα και οι παίκτες αλλάζουν VIP κατηγορία με τον χρόνο. Οι αναλυτές χρειάζονται έναν αξιόπιστο πίνακα σε EUR, με την κατηγορία που είχε ο παίκτης τη μέρα που έπαιξε."
+        },
+        "approach": {
+          "en": "Loaded the raw CSVs into PostgreSQL (bronze), built a Type 2 slowly changing dimension for VIP status with window functions, converted turnover, returns and GGR to EUR with daily rates, and only processed new rows on each run using a timestamp watermark (silver). Aggregated everything into a Gold table across nine dimensions.",
+          "el": "Φόρτωσα τα CSV σε PostgreSQL (bronze), έφτιαξα SCD Type 2 για το VIP status με window functions, μετέτρεψα turnover, returns και GGR σε EUR με ημερήσιες ισοτιμίες και, σε κάθε εκτέλεση, επεξεργάζομαι μόνο τις νέες γραμμές με watermark χρονοσφραγίδας (silver). Όλα καταλήγουν σε Gold table με εννέα διαστάσεις."
+        },
+        "result": {
+          "en": "A re-runnable pipeline and a business-ready Gold table. Five data-quality checks ran on the output; one showed that the source GGR does not always equal turnover minus returns at row level, which I documented as a source-data issue while confirming the totals reconcile.",
+          "el": "Ένα pipeline που ξανατρέχει με ασφάλεια και ένας Gold table έτοιμος για ανάλυση. Πέντε έλεγχοι ποιότητας στο αποτέλεσμα· ένας έδειξε ότι το GGR της πηγής δεν ισούται πάντα με turnover μείον returns ανά γραμμή, κάτι που κατέγραψα ως πρόβλημα των αρχικών δεδομένων, επιβεβαιώνοντας ότι τα σύνολα συμφωνούν."
+        }
+      }
+    },
+    {
+      "id": "powerbi-supermarket-sales",
+      "visible": true,
+      "featured": false,
+      "year": "2025",
+      "title": {
+        "en": "Supermarket sales dashboard",
+        "el": "Dashboard πωλήσεων σούπερ μάρκετ"
+      },
+      "summary": {
+        "en": "An interactive Power BI report on product-line performance, customer segments, city-level sales and monthly gross income.",
+        "el": "Διαδραστικό report σε Power BI για απόδοση κατηγοριών προϊόντων, τμήματα πελατών, πωλήσεις ανά πόλη και μηνιαίο μικτό κέρδος."
+      },
+      "details": {
+        "en": [
+          "KPI cards for total orders and gross income",
+          "Product-line comparison and customer segmentation by type and gender",
+          "City-level sales and ratings",
+          "Monthly order and gross income trends",
+          "Data shaped in Power Query, measures in DAX"
+        ],
+        "el": [
+          "Κάρτες KPI για συνολικές παραγγελίες και μικτό κέρδος",
+          "Σύγκριση κατηγοριών προϊόντων και τμηματοποίηση πελατών ανά τύπο και φύλο",
+          "Πωλήσεις και αξιολογήσεις ανά πόλη",
+          "Μηνιαίες τάσεις παραγγελιών και μικτού κέρδους",
+          "Προετοιμασία δεδομένων σε Power Query, μετρικές σε DAX"
+        ]
+      },
+      "tags": [
+        "Power BI",
+        "DAX",
+        "Power Query"
+      ],
+      "image": "assets/img/projects/powerbi-supermarket-sales.jpg",
+      "links": {
+        "code": "https://github.com/valantisdata/powerbi-supermarket-sales-dashboard",
+        "live": "",
+        "report": "",
+        "paper": ""
+      },
+      "case_study": {
+        "problem": {
+          "en": "Which product lines, customer groups and cities drive a supermarket's sales, and how do orders move month to month?",
+          "el": "Ποιες κατηγορίες προϊόντων, ομάδες πελατών και πόλεις κινούν τις πωλήσεις ενός σούπερ μάρκετ, και πώς κινούνται οι παραγγελίες από μήνα σε μήνα;"
+        },
+        "approach": {
+          "en": "Cleaned the sample data in Power Query, wrote DAX measures for orders and gross income, and built one report page with KPI cards, product-line and customer-type breakdowns, a city map with ratings, and a monthly trend, all filterable by gender.",
+          "el": "Καθάρισα τα δεδομένα σε Power Query, έγραψα μετρικές DAX για παραγγελίες και μικτό κέρδος και έφτιαξα μία σελίδα με κάρτες KPI, ανάλυση ανά κατηγορία και τύπο πελάτη, χάρτη πόλεων με αξιολογήσεις και μηνιαία τάση, όλα με φίλτρο ανά φύλο."
+        },
+        "result": {
+          "en": "Across 1,000 orders in three cities, fashion accessories had the most orders (178) and health and beauty the fewest (152); the gender filter shows how the mix shifts between customer groups.",
+          "el": "Σε 1.000 παραγγελίες σε τρεις πόλεις, τα αξεσουάρ μόδας είχαν τις περισσότερες παραγγελίες (178) και τα προϊόντα υγείας και ομορφιάς τις λιγότερες (152)· το φίλτρο φύλου δείχνει πώς αλλάζει το μείγμα ανάμεσα στις ομάδες πελατών."
+        }
+      }
+    },
+    {
+      "id": "frontiers-psychiatry-2025",
+      "visible": true,
+      "featured": false,
+      "year": "2025",
+      "title": {
+        "en": "Burnout among medical students: statistical analysis for Frontiers in Psychiatry",
+        "el": "Burnout σε φοιτητές Ιατρικής: στατιστική ανάλυση για το Frontiers in Psychiatry"
+      },
+      "summary": {
+        "en": "Co-author of a peer-reviewed cross-sectional study of burnout among 400 medical students at the Aristotle University of Thessaloniki, published in Frontiers in Psychiatry (vol. 16, 2025). I led the statistical analysis.",
+        "el": "Συν-συγγραφέας σε μελέτη με κριτές για το burnout σε 400 φοιτητές Ιατρικής του ΑΠΘ, που δημοσιεύτηκε στο Frontiers in Psychiatry (τόμ. 16, 2025). Είχα την ευθύνη της στατιστικής ανάλυσης."
+      },
+      "details": {
+        "en": [],
+        "el": []
+      },
+      "tags": [
+        "SPSS",
+        "Excel",
+        "Biostatistics",
+        "Survey data"
+      ],
+      "image": "assets/img/projects/psychiatry-paper.svg",
+      "links": {
+        "code": "",
+        "live": "",
+        "report": "",
+        "paper": "https://doi.org/10.3389/fpsyt.2025.1538393"
+      },
+      "case_study": {
+        "problem": {
+          "en": "How widespread is burnout among medical students, and does it differ by gender and year of study?",
+          "el": "Πόσο διαδεδομένο είναι το burnout στους φοιτητές Ιατρικής, και διαφέρει ανάλογα με το φύλο και το έτος σπουδών;"
+        },
+        "approach": {
+          "en": "Survey of 400 students using the Maslach Burnout Inventory, which scores emotional exhaustion, depersonalisation and personal accomplishment. I prepared the data and ran the statistical analysis in SPSS and Excel, comparing groups by gender and year.",
+          "el": "Έρευνα σε 400 φοιτητές με το ερωτηματολόγιο Maslach, που μετράει συναισθηματική εξάντληση, αποπροσωποποίηση και αίσθημα προσωπικής επίτευξης. Προετοίμασα τα δεδομένα και έκανα τη στατιστική ανάλυση σε SPSS και Excel, συγκρίνοντας ομάδες ανά φύλο και έτος."
+        },
+        "result": {
+          "en": "Published in Frontiers in Psychiatry in 2025 after peer review.",
+          "el": "Δημοσιεύτηκε στο Frontiers in Psychiatry το 2025, μετά από αξιολόγηση από κριτές."
+        }
+      }
+    }
+  ],
+  "experience": [
+    {
+      "visible": true,
+      "role": {
+        "en": "Project Coordinator",
+        "el": "Project Coordinator"
+      },
+      "org": "TQES",
+      "start": "2026",
+      "end": "",
+      "summary": {
+        "en": "",
+        "el": ""
+      },
+      "points": {
+        "en": [
+          "Support the project manager on utility-scale solar PV projects: bills of quantities, procurement and supplier coordination.",
+          "Building an Excel tool that brings BOQ, BOM, RFQ and PO tracking into one workbook, with automated currency conversion and commodity-driven cable pricing.",
+          "The automated workflow saves many hours, sometimes days, of manual work per supplier quotation cycle on new projects (e.g. 115 MW).",
+          "Prepare supplier quotation requests and compare incoming offers."
+        ],
+        "el": [
+          "Υποστηρίζω τον project manager σε φωτοβολταϊκά έργα μεγάλης κλίμακας: BOQ, προμήθειες και συντονισμό προμηθευτών.",
+          "Φτιάχνω εργαλείο Excel που συγκεντρώνει BOQ, BOM, RFQ και παρακολούθηση παραγγελιών σε ένα αρχείο, με αυτόματη μετατροπή νομισμάτων και τιμολόγηση καλωδίων βάσει τιμών μετάλλων.",
+          "Ο αυτοματισμός γλιτώνει πολλές ώρες, μερικές φορές μέρες, χειροκίνητης δουλειάς σε κάθε κύκλο προσφορών για νέα έργα (π.χ. 115 MW).",
+          "Ετοιμάζω αιτήματα προσφορών και συγκρίνω τις προσφορές που λαμβάνουμε."
+        ]
+      }
+    },
+    {
+      "visible": true,
+      "role": {
+        "en": "Live Trader",
+        "el": "Live Trader"
+      },
+      "org": "Novibet",
+      "start": "2024",
+      "end": "2026",
+      "summary": {
+        "en": "",
+        "el": ""
+      },
+      "points": {
+        "en": [
+          "Traded 4–8 live matches simultaneously (around 16–20 per shift), using in-house tools and statistical analysis to price markets and maximise gross gaming revenue.",
+          "Adjusted odds in real time as live data and match conditions changed.",
+          "On risk shifts, managed exposure across high-turnover concurrent events, including colleagues' markets, to limit liabilities.",
+          "Started as a junior trader and took on full Live Trader duties within six months."
+        ],
+        "el": [
+          "Διαχειριζόμουν 4–8 live αγώνες ταυτόχρονα (περίπου 16–20 ανά βάρδια), με εσωτερικά εργαλεία και στατιστική ανάλυση για την τιμολόγηση των αγορών και τη μεγιστοποίηση του GGR.",
+          "Προσάρμοζα τις αποδόσεις σε πραγματικό χρόνο, ανάλογα με τα live δεδομένα και την εξέλιξη του αγώνα.",
+          "Σε βάρδιες ρίσκου διαχειριζόμουν την έκθεση σε ταυτόχρονους αγώνες υψηλού τζίρου, και αγορές συναδέλφων, για να περιοριστούν οι υποχρεώσεις.",
+          "Ξεκίνησα ως junior trader και μέσα σε έξι μήνες ανέλαβα πλήρως τα καθήκοντα Live Trader."
+        ]
+      }
+    },
+    {
+      "visible": true,
+      "role": {
+        "en": "Sales Promoter (part-time)",
+        "el": "Sales Promoter (μερική απασχόληση)"
+      },
+      "org": "ZZ.DOT",
+      "start": "2024",
+      "end": "2025",
+      "summary": {
+        "en": "",
+        "el": ""
+      },
+      "points": {
+        "en": [],
+        "el": []
+      }
+    },
+    {
+      "visible": true,
+      "role": {
+        "en": "Medical Assistant (military service)",
+        "el": "Βοηθός ιατρού (στρατιωτική θητεία)"
+      },
+      "org": {
+        "en": "Hellenic Army",
+        "el": "Ελληνικός Στρατός"
+      },
+      "start": "2023",
+      "end": "2024",
+      "summary": {
+        "en": "",
+        "el": ""
+      },
+      "points": {
+        "en": [
+          "Supported the unit's doctor with patient care and medical records."
+        ],
+        "el": [
+          "Υποστήριζα τον γιατρό της μονάδας στη φροντίδα ασθενών και στα ιατρικά αρχεία."
+        ]
+      }
+    },
+    {
+      "visible": true,
+      "role": {
+        "en": "Business Analyst, Supply Chain",
+        "el": "Business Analyst, Supply Chain"
+      },
+      "org": "Adorama",
+      "start": "2020",
+      "end": "2023",
+      "summary": {
+        "en": "",
+        "el": ""
+      },
+      "points": {
+        "en": [
+          "Produced weekly Excel reports (pivot tables, lookups, advanced formulas) on sales, pricing, orders and inventory across a large SKU catalogue, supporting purchasing decisions.",
+          "Analysed pricing against competitors and recommended adjustments that made the range one of the most competitive in the market.",
+          "Helped grow the value of each container order from roughly €4–5K to €6.5–7K, with strong margins.",
+          "Supported the introduction of new products to the catalogue.",
+          "Worked with the sales team and spoke directly with customers, feeding their insight back into pricing and assortment."
+        ],
+        "el": [
+          "Εβδομαδιαία reports σε Excel (pivot tables, lookups, σύνθετοι τύποι) για πωλήσεις, τιμές, παραγγελίες και απόθεμα σε μεγάλο κατάλογο κωδικών, για τις αποφάσεις αγορών.",
+          "Ανάλυση τιμών έναντι ανταγωνισμού και προτάσεις προσαρμογών που έκαναν τη γκάμα από τις πιο ανταγωνιστικές της αγοράς.",
+          "Συνέβαλα στην αύξηση της αξίας κάθε παραγγελίας container από περίπου €4–5K σε €6,5–7K, με καλά περιθώρια κέρδους.",
+          "Υποστήριξα την εισαγωγή νέων προϊόντων στον κατάλογο.",
+          "Συνεργαζόμουν με την ομάδα πωλήσεων και μιλούσα απευθείας με πελάτες, μεταφέροντας τις παρατηρήσεις τους στις αποφάσεις τιμολόγησης και γκάμας."
+        ]
+      }
+    }
+  ],
+  "skills": [
+    {
+      "group": {
+        "en": "Data",
+        "el": "Δεδομένα"
+      },
+      "items": [
+        "SQL / PostgreSQL",
+        "Excel (pivot tables, lookups)",
+        "Power BI (DAX, Power Query)"
+      ]
+    },
+    {
+      "group": {
+        "en": "Programming",
+        "el": "Προγραμματισμός"
+      },
+      "items": [
+        "Python (pandas, numpy, scipy)",
+        "R",
+        "SPSS"
+      ]
+    },
+    {
+      "group": {
+        "en": "Statistics",
+        "el": "Στατιστική"
+      },
+      "items": [
+        "Regression",
+        "Probability",
+        "Time series",
+        "Forecasting",
+        "Biostatistics"
+      ]
+    },
+    {
+      "group": {
+        "en": "Business",
+        "el": "Επιχειρησιακά"
+      },
+      "items": [
+        "Pricing",
+        "Supply chain",
+        "Risk management",
+        "Supplier coordination"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "visible": true,
+      "degree": {
+        "en": "B.Sc. Statistics and Insurance Science",
+        "el": "Πτυχίο Στατιστικής και Ασφαλιστικής Επιστήμης"
+      },
+      "school": {
+        "en": "University of Piraeus",
+        "el": "Πανεπιστήμιο Πειραιώς"
+      },
+      "start": "2018",
+      "end": "2023"
+    },
+    {
+      "visible": true,
+      "degree": {
+        "en": "Data Analyst Bootcamp coursework",
+        "el": "Data Analyst Bootcamp (μαθήματα)"
+      },
+      "school": {
+        "en": "WorkEarly",
+        "el": "WorkEarly"
+      },
+      "start": "2024",
+      "end": "2024"
+    }
+  ],
+  "analytics": {
+    "goatcounter_code": ""
+  },
+  "languages": [
+    {
+      "name": {
+        "en": "Greek",
+        "el": "Ελληνικά"
+      },
+      "level": {
+        "en": "native",
+        "el": "μητρική"
+      }
+    },
+    {
+      "name": {
+        "en": "English",
+        "el": "Αγγλικά"
+      },
+      "level": {
+        "en": "fluent, B2 certified",
+        "el": "άριστα, πιστοποίηση B2"
+      }
+    }
+  ],
+  "certificates": [
+    {
+      "name": {
+        "en": "ECDL",
+        "el": "ECDL"
+      },
+      "year": "2023"
+    }
+  ]
+}
