@@ -11,8 +11,8 @@
       "el": "Αθήνα"
     },
     "bio": {
-      "en": "Analytical professional with experience across supply chain, sales, live trading and project coordination. I turn data into decisions, from pricing and weekly reporting to real-time risk management and supplier quotations. I work in SQL, Power BI, Excel and R, and I led the statistical analysis of a peer-reviewed study in Frontiers in Psychiatry.",
-      "el": "Αναλυτικός επαγγελματίας με εμπειρία σε supply chain, πωλήσεις, live trading και συντονισμό έργων. Μετατρέπω δεδομένα σε αποφάσεις: από τιμολόγηση και εβδομαδιαία reports μέχρι διαχείριση ρίσκου σε πραγματικό χρόνο και προσφορές προμηθευτών. Δουλεύω με SQL, Power BI, Excel και R, και είχα την ευθύνη της στατιστικής ανάλυσης σε δημοσίευση με κριτές στο Frontiers in Psychiatry."
+      "en": "Analytical professional with experience across supply chain, sales, live trading and project coordination. I turn data into decisions, from pricing and weekly reporting to real-time risk management and supplier quotations. I work in SQL, Power BI, Excel, SPSS, R and Python, and I led the statistical analysis of a peer-reviewed study in Frontiers in Psychiatry.",
+      "el": "Αναλυτικός επαγγελματίας με εμπειρία σε supply chain, πωλήσεις, live trading και συντονισμό έργων. Μετατρέπω δεδομένα σε αποφάσεις: από τιμολόγηση και εβδομαδιαία reports μέχρι διαχείριση ρίσκου σε πραγματικό χρόνο και προσφορές προμηθευτών. Δουλεύω με SQL, Power BI, Excel, SPSS, R και Python, και είχα την ευθύνη της στατιστικής ανάλυσης σε δημοσίευση με κριτές στο Frontiers in Psychiatry."
     },
     "open_to": {
       "en": "",
@@ -457,13 +457,13 @@
     },
     {
       "group": {
-        "en": "Programming",
-        "el": "Προγραμματισμός"
+        "en": "Statistical software & programming",
+        "el": "Στατιστικό λογισμικό & προγραμματισμός"
       },
       "items": [
-        "Python (pandas, numpy, scipy)",
+        "SPSS",
         "R",
-        "SPSS"
+        "Python (pandas, numpy, scipy)"
       ]
     },
     {
